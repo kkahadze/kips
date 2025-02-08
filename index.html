@@ -1,46 +1,502 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Poem</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Poem - Page 1</title>
+    <link href="style.css" rel="stylesheet" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            text-align: center;
+            background-color: #f5f1e8;
+            /* Soft warm background */
+            color: #333;
+            /* Dark gray text for readability */
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .poem {
+            font-family: Georgia, serif;
+            /* More readable font */
+            font-size: 20px;
+            /* Slightly larger font */
+            text-align: left;
+            line-height: 1.6;
+            /* Increase line spacing */
+            max-width: 900px;
+            margin: auto;
+            color: #2c2c2c;
+            /* Softer black */
+            padding: 20px;
+            background: #fffaf0;
+            /* Light cream for contrast */
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .poem a {
+            color: #8b4513;
+            /* Warm brown for links */
+            text-decoration: none;
+            border-bottom: 1px dashed #8b4513;
+            /* Subtle underline */
+            transition: color 0.3s ease-in-out;
+        }
+
+        .poem a:hover {
+            color: #d2691e;
+            /* Slightly brighter on hover */
+            border-bottom: 1px solid #d2691e;
+        }
+
+        .pagination {
+            margin-top: 30px;
+        }
+
+        .pagination a {
+            text-decoration: none;
+            background-color: #5a8f7b;
+            /* Softer green */
+            color: white;
+            padding: 12px 24px;
+            margin: 5px;
+            border-radius: 20px;
+            font-size: 18px;
+            display: inline-block;
+            font-weight: bold;
+            transition: background 0.3s ease-in-out;
+        }
+
+        .pagination a:hover {
+            background-color: #487567;
+            /* Darker shade on hover */
+        }
+    </style>
 </head>
+
 <body>
     <div class="container">
         <div class="poem">
+            <h1 class="chapter-title">დასაწყისი</h1> <br />
+
             <p>
-                მო, დავსხდეთ, ტარიელისთვის ცრემლი გვდის შეუშრიბელი;</br>
-                მისებრი მართ დაბადებით ვინმცა ყოფილა შობილი!</br>
-                დავჯე, რუსთველმან გავლექსე, მისთვის გულ-ლახვარ-სობილი,</br>
-                აქამდის ამბად ნათქვამი, აწ მარგალიტი წყობილი.</br>
-                </br>
-                მე, რუსთველი, ხელობითა ვიქმ საქმესა ამა დარი:</br>
-                ვის მორჩილობს ჯარი სპათა, მისთვის ვხელობ, მისთვის მკვდარი;</br>
-                დავუძლურდი, მიჯნურთათვის კვლა წამალი არსით არი,</br>
-                ანუ მომცეს განკურნება, ანუ მიწა მე სამარი.</br>
-                </br>
-                ესე ამბავი სპარსული, ქართულად ნათარგმანები,</br>
-                ვით მარგალიტი ობოლი, ხელის-ხელ საგოგმანები,</br>
-                ვპოვე ლექსად გარდავთქვი, საქმე ვქმენ საჭოჭმანები,</br>
-                ჩემმან ხელ-მქმნელმან დამმართოს ლაღმან ლამაზმა ნები.</br>
-                </br>
-                თვალთა მისგან უნათლოთა, ენატრამცა ახლად ჩენა;</br>
-                აჰა, გული გამიჯნურდა, მიხვდომია ველთა რბენა!</br>
-                მიაჯეთ ვინ, ხორცთა დაწვა კმარის, მისცეს სულთა ლხენა.</br>
-                სამთა ფერთა საქებელთა ლამის ლექსთა უნვლენა.</br>
-                </br>
-                რაცა ვის რა ბედმან მისცეს, დასჯერდეს მას უბნობდეს:</br>
-                მუშა მიწყივ მუშაკობდეს, მეომარი გულოვნობდეს;</br>
-                კვლა მიჯნურსა მიჯნურობა უყვარდეს გამოსცნობდეს,</br>
-                არცა ვისგან დაიწუნოს, არცა სხვასა უწუნობდეს.</br>
-                </br>
-                შაირობა პირველადვე სიბრძნისაა ერთი დარგი,</br>
-                საღმრთო, საღმრთოდ გასაგონი, მსმენელთათვის დიდი მარგი,</br>
-                კვლა აქაცა ეამების, ვინცა ისმენს კაცი ვარგი;</br>
-                გრძელი სიტყვა მოკლედ ითქმის, შაირია ამად კარგი.</br>
+                რომელმან <a href="https://en.wiktionary.org/wiki/შექმნა" target="_blank">შექმნა</a> <a
+                    href="https://en.wiktionary.org/wiki/სამყარო" target="_blank">სამყარო</a> ძალითა მით ძლიერითა,
+                <br />
+                ზეგარდმო <a href="https://en.wiktionary.org/wiki/არსი" target="_blank">არსნი</a> სულითა ყვნა ზეცით
+                მონაბერითა, <br />
+                <a href="https://en.wiktionary.org/wiki/ჩვენ" target="_blank">ჩვენ,</a> <a
+                    href="https://en.wiktionary.org/wiki/კაცთა" target="_blank">კაცთა,</a> მოგვცა <a
+                    href="https://en.wiktionary.org/wiki/ქვეყანა" target="_blank">ქვეყანა,</a> <a
+                    href="https://en.wiktionary.org/wiki/გვაქვს" target="_blank">გვაქვს</a> უთვალავი ფერითა, <br />
+                მისგან <a href="https://en.wiktionary.org/wiki/არს" target="_blank">არს</a> ყოვლი <a
+                    href="https://en.wiktionary.org/wiki/ხელმწიფე" target="_blank">ხელმწიფე</a> სახითა <a
+                    href="https://en.wiktionary.org/wiki/მის" target="_blank">მის</a> მიერითა. <br />
+                <br />
+                <a href="https://en.wiktionary.org/wiki/ჰე" target="_blank">ჰე</a> <a
+                    href="https://en.wiktionary.org/wiki/ღმერთო" target="_blank">ღმერთო</a> ერთო, <a
+                    href="https://en.wiktionary.org/wiki/შენ" target="_blank">შენ</a> შეჰქმენ <a
+                    href="https://en.wiktionary.org/wiki/სახე" target="_blank">სახე</a> ყოვლისა ტანისა, <br />
+                <a href="https://en.wiktionary.org/wiki/შენ" target="_blank">შენ</a> დამიფარე, ძლევა მეც დათრგუნვად <a
+                    href="https://en.wiktionary.org/wiki/მე" target="_blank">მე</a> სატანისა, <br />
+                მომეც <a href="https://en.wiktionary.org/wiki/მიჯნური" target="_blank">მიჯნურთა</a> <a
+                    href="https://en.wiktionary.org/wiki/სურვილი" target="_blank">სურვილი,</a> სიკვდიმდე გასატანისა,
+                <br />
+                ცოდვათა შემსუბუქება, მუნ თანა წასატანისა. <br />
+                <br />
+                <a href="https://en.wiktionary.org/wiki/ვის" target="_blank">ვის</a> შვენის,-ლომსა,- <a
+                    href="https://en.wiktionary.org/wiki/ხმარება" target="_blank">ხმარება</a> შუბისა, ფარ -შიმშერისა,
+                <br />
+                - მეფისა <a href="https://en.wiktionary.org/wiki/მზის" target="_blank">მზის</a> თამარისა, ღაწვ-ბალახშ,
+                <a href="https://en.wiktionary.org/wiki/თმა" target="_blank">თმა</a> -გიშერისა, - <br />
+                <a href="https://en.wiktionary.org/wiki/მას" target="_blank">მას,</a> <a
+                    href="https://en.wiktionary.org/wiki/არა" target="_blank">არა</a> <a
+                    href="https://en.wiktionary.org/wiki/ვიცი" target="_blank">ვიცი,</a> შევჰკადრო შესხმა ხოტბისა,
+                შერისა? <br />
+                <a href="https://en.wiktionary.org/wiki/მისი" target="_blank">მისთა</a> მჭვრეტელთა ყანდისა მირთმა ხამს,
+                მართ მიშერისა. <br />
+                <br />
+                თამარს ვაქებდეთ მეფესა სისხლისა ცრემლ -დათხეული, <br />
+                ვთქვენი ქებანი <a href="https://en.wiktionary.org/wiki/ვისი" target="_blank">ვისნი</a> <a
+                    href="https://en.wiktionary.org/wiki/მე" target="_blank">მე</a> <a
+                    href="https://en.wiktionary.org/wiki/არ" target="_blank">არ</a> <a
+                    href="https://en.wiktionary.org/wiki/ავად" target="_blank">-ავად</a> <a
+                    href="https://en.wiktionary.org/wiki/გამორჩეული" target="_blank">გამორჩეული.</a> <br />
+                მელნად ვიხმარე გიშრის <a href="https://en.wiktionary.org/wiki/ტბა" target="_blank">ტბა</a> კალმად <a
+                    href="https://en.wiktionary.org/wiki/მე" target="_blank">მე</a> ნა რხეული, <br />
+                ვინცა ისმინოს, დაესვას <a href="https://en.wiktionary.org/wiki/ლახვარი" target="_blank">ლახვარი</a> <a
+                    href="https://en.wiktionary.org/wiki/გული" target="_blank">გულსა</a> ხეული. <br />
+                <br />
+                მიბრძანეს <a href="https://en.wiktionary.org/wiki/მათი" target="_blank">მათად</a> საქებრად <a
+                    href="https://en.wiktionary.org/wiki/თქმა" target="_blank">თქმა</a> ლექსებისა ტკბილისა, <br />
+                ქება <a href="https://en.wiktionary.org/wiki/წარბი" target="_blank">წარბთა</a> <a
+                    href="https://en.wiktionary.org/wiki/წამწამი" target="_blank">წამწამთა,</a> თმათა ბაგე-კბილისა,
+                <br />
+                ბროლ-ბალახშისა თლილისა, <a href="https://en.wiktionary.org/wiki/მის" target="_blank">მის</a> მიჯრით
+                მოწყობილისა. <br />
+                გასტეხს ქვასაცა <a href="https://en.wiktionary.org/wiki/მაგარი" target="_blank">მაგარსა</a> გვრდემლი
+                ტყვიისა ლბილისა. <br />
+                <br />
+                აწ <a href="https://en.wiktionary.org/wiki/ენა" target="_blank">ენა</a> მინგამოთქმად, <a
+                    href="https://en.wiktionary.org/wiki/გული" target="_blank">გული</a> ხელოვანება, - <br />
+                <a href="https://en.wiktionary.org/wiki/ძალი" target="_blank">ძალი</a> მომეც შეწევნა შენგნით <a
+                    href="https://en.wiktionary.org/wiki/მაქვს" target="_blank">მაქვს,</a> მივსცე <a
+                    href="https://en.wiktionary.org/wiki/გონება" target="_blank">გონება;</a> <br />
+                მით შევეწივნეთ ტარიელს, ტურფადცა უნხსენება, <br />
+                <a href="https://en.wiktionary.org/wiki/მათ" target="_blank">მათ</a> <a
+                    href="https://en.wiktionary.org/wiki/სამი" target="_blank">სამთა</a> <a
+                    href="https://en.wiktionary.org/wiki/გმირი" target="_blank">გმირთა</a> <a
+                    href="https://en.wiktionary.org/wiki/მნათობი" target="_blank">მნათობთა</a> სჭირს ერთმანერთის მონება.
+                <br />
+                <br />
+                მო, დავსხდეთ, ტარიელისთვის <a href="https://en.wiktionary.org/wiki/ცრემლი" target="_blank">ცრემლი</a>
+                გვდის შეუშრიბელი; <br />
+                მისებრი მართ <a href="https://en.wiktionary.org/wiki/დაბადებით" target="_blank">დაბადებით</a> ვინმცა
+                ყოფილა შობილი! <br />
+                დავჯე, რუსთველმან გავლექსე, მისთვის გულ-ლახვარ-სობილი, <br />
+                აქამდის ამბად ნათქვამი, აწ <a href="https://en.wiktionary.org/wiki/მარგალიტი"
+                    target="_blank">მარგალიტი</a> წყობილი. <br />
+                <br />
+                <a href="https://en.wiktionary.org/wiki/მე" target="_blank">მე,</a> რუსთველი, ხელობითა ვიქმ საქმესა <a
+                    href="https://en.wiktionary.org/wiki/ამა" target="_blank">ამა</a> <a
+                    href="https://en.wiktionary.org/wiki/დარი" target="_blank">დარი:</a> <br />
+                <a href="https://en.wiktionary.org/wiki/ვის" target="_blank">ვის</a> მორჩილობს <a
+                    href="https://en.wiktionary.org/wiki/ჯარი" target="_blank">ჯარი</a> სპათა, მისთვის ვხელობ, მისთვის
+                <a href="https://en.wiktionary.org/wiki/მკვდარი" target="_blank">მკვდარი;</a> <br />
+                დავუძლურდი, მიჯნურთათვის <a href="https://en.wiktionary.org/wiki/კვლა" target="_blank">კვლა</a> <a
+                    href="https://en.wiktionary.org/wiki/წამალი" target="_blank">წამალი</a> <a
+                    href="https://en.wiktionary.org/wiki/არსით" target="_blank">არსით</a> <a
+                    href="https://en.wiktionary.org/wiki/არი" target="_blank">არი,</a> <br />
+                <a href="https://en.wiktionary.org/wiki/ანუ" target="_blank">ანუ</a> მომცეს განკურნება, <a
+                    href="https://en.wiktionary.org/wiki/ანუ" target="_blank">ანუ</a> <a
+                    href="https://en.wiktionary.org/wiki/მიწა" target="_blank">მიწა</a> <a
+                    href="https://en.wiktionary.org/wiki/მე" target="_blank">მე</a> სამარი. <br />
+                <br />
+                <a href="https://en.wiktionary.org/wiki/ესე" target="_blank">ესე</a> <a
+                    href="https://en.wiktionary.org/wiki/ამბავი" target="_blank">ამბავი</a> <a
+                    href="https://en.wiktionary.org/wiki/სპარსული" target="_blank">სპარსული,</a> <a
+                    href="https://en.wiktionary.org/wiki/ქართული" target="_blank">ქართულად</a> ნათარგმანები, <br />
+                <a href="https://en.wiktionary.org/wiki/ვით" target="_blank">ვით</a> <a
+                    href="https://en.wiktionary.org/wiki/მარგალიტი" target="_blank">მარგალიტი</a> <a
+                    href="https://en.wiktionary.org/wiki/ობოლი" target="_blank">ობოლი,</a> ხელის-ხელ საგოგმანები, <br />
+                ვპოვე <a href="https://en.wiktionary.org/wiki/ლექსი" target="_blank">ლექსად</a> გარდავთქვი, <a
+                    href="https://en.wiktionary.org/wiki/საქმე" target="_blank">საქმე</a> ვქმენ საჭოჭმანები, <br />
+                ჩემმან ხელ-მქმნელმან დამმართოს ლაღმან ლამაზმა ნები. <br />
+                <br />
+                <a href="https://en.wiktionary.org/wiki/თვალი" target="_blank">თვალთა</a> მისგან უნათლოთა, ენატრამცა <a
+                    href="https://en.wiktionary.org/wiki/ახლად" target="_blank">ახლად</a> <a
+                    href="https://en.wiktionary.org/wiki/ჩენა" target="_blank">ჩენა;</a> <br />
+                <a href="https://en.wiktionary.org/wiki/აჰა" target="_blank">აჰა,</a> <a
+                    href="https://en.wiktionary.org/wiki/გული" target="_blank">გული</a> გამიჯნურდა, მიხვდომია <a
+                    href="https://en.wiktionary.org/wiki/ველი" target="_blank">ველთა</a> რბენა! <br />
+                მიაჯეთ <a href="https://en.wiktionary.org/wiki/ვინ" target="_blank">ვინ,</a> <a
+                    href="https://en.wiktionary.org/wiki/ხორცი" target="_blank">ხორცთა</a> <a
+                    href="https://en.wiktionary.org/wiki/დაწვა" target="_blank">დაწვა</a> კმარის, <a
+                    href="https://en.wiktionary.org/wiki/მისცეს" target="_blank">მისცეს</a> <a
+                    href="https://en.wiktionary.org/wiki/სული" target="_blank">სულთა</a> <a
+                    href="https://en.wiktionary.org/wiki/ლხენა" target="_blank">ლხენა.</a> <br />
+                <a href="https://en.wiktionary.org/wiki/სამი" target="_blank">სამთა</a> <a
+                    href="https://en.wiktionary.org/wiki/ფერი" target="_blank">ფერთა</a> საქებელთა <a
+                    href="https://en.wiktionary.org/wiki/ლამის" target="_blank">ლამის</a> <a
+                    href="https://en.wiktionary.org/wiki/ლექსი" target="_blank">ლექსთა</a> უნვლენა. <br />
+                <br />
+                რაცა <a href="https://en.wiktionary.org/wiki/ვის" target="_blank">ვის</a> <a
+                    href="https://en.wiktionary.org/wiki/რა" target="_blank">რა</a> ბედმან <a
+                    href="https://en.wiktionary.org/wiki/მისცეს" target="_blank">მისცეს,</a> დასჯერდეს <a
+                    href="https://en.wiktionary.org/wiki/მას" target="_blank">მას</a> უბნობდეს: <br />
+                <a href="https://en.wiktionary.org/wiki/მუშა" target="_blank">მუშა</a> <a
+                    href="https://en.wiktionary.org/wiki/მიწყივ" target="_blank">მიწყივ</a> მუშაკობდეს, <a
+                    href="https://en.wiktionary.org/wiki/მეომარი" target="_blank">მეომარი</a> გულოვნობდეს; <br />
+                <a href="https://en.wiktionary.org/wiki/კვლა" target="_blank">კვლა</a> <a
+                    href="https://en.wiktionary.org/wiki/მიჯნური" target="_blank">მიჯნურსა</a> მიჯნურობა უყვარდეს
+                გამოსცნობდეს, <br />
+                არცა ვისგან დაიწუნოს, არცა სხვასა უწუნობდეს. <br />
+                <br />
+                შაირობა პირველადვე სიბრძნისაა <a href="https://en.wiktionary.org/wiki/ერთი" target="_blank">ერთი</a> <a
+                    href="https://en.wiktionary.org/wiki/დარგი" target="_blank">დარგი,</a> <br />
+                საღმრთო, საღმრთოდ გასაგონი, მსმენელთათვის <a href="https://en.wiktionary.org/wiki/დიდი"
+                    target="_blank">დიდი</a> <a href="https://en.wiktionary.org/wiki/მარგი" target="_blank">მარგი,</a>
+                <br />
+                <a href="https://en.wiktionary.org/wiki/კვლა" target="_blank">კვლა</a> აქაცა ეამების, ვინცა ისმენს <a
+                    href="https://en.wiktionary.org/wiki/კაცი" target="_blank">კაცი</a> ვარგი; <br />
+                <a href="https://en.wiktionary.org/wiki/გრძელი" target="_blank">გრძელი</a> <a
+                    href="https://en.wiktionary.org/wiki/სიტყვა" target="_blank">სიტყვა</a> <a
+                    href="https://en.wiktionary.org/wiki/მოკლედ" target="_blank">მოკლედ</a> ითქმის, შაირია ამად <a
+                    href="https://en.wiktionary.org/wiki/კარგი" target="_blank">კარგი.</a> <br />
+                <br />
+                ვითა <a href="https://en.wiktionary.org/wiki/ცხენი" target="_blank">ცხენსა</a> <a
+                    href="https://en.wiktionary.org/wiki/შარა" target="_blank">შარა</a> <a
+                    href="https://en.wiktionary.org/wiki/გრძელი" target="_blank">გრძელი</a> გამოსცდის <a
+                    href="https://en.wiktionary.org/wiki/დიდი" target="_blank">დიდი</a> რბევა, <br />
+                მობურთალსა-მოედანი, <a href="https://en.wiktionary.org/wiki/მართლად" target="_blank">მართლად</a> <a
+                    href="https://en.wiktionary.org/wiki/ცემა" target="_blank">ცემა,</a> <a
+                    href="https://en.wiktionary.org/wiki/მარჯვედ" target="_blank">მარჯვედ</a> ქნევა, <br />
+                მართ აგრევე მელექსესადლექსთა <a href="https://en.wiktionary.org/wiki/გრძელი" target="_blank">გრძელთა</a>
+                <a href="https://en.wiktionary.org/wiki/თქმა" target="_blank">თქმა</a> ხევა, <br />
+                <a href="https://en.wiktionary.org/wiki/რა" target="_blank">რა</a> მისჭირდეს <a
+                    href="https://en.wiktionary.org/wiki/საუბარი" target="_blank">საუბარი</a> დაუწყოს ლექსმან ლევა...
+                <br />
+                <br />
+                მაშინღა ნახეთ მელექსე <a href="https://en.wiktionary.org/wiki/მისი" target="_blank">მისი</a> მოშაირობა,
+                <br />
+                <a href="https://en.wiktionary.org/wiki/რა" target="_blank">რა</a> ვეღარ მიხვდეს <a
+                    href="https://en.wiktionary.org/wiki/ქართული" target="_blank">ქართულსა,</a> დაუწყოს ლექსმან ძვირობა,
+                <br />
+                <a href="https://en.wiktionary.org/wiki/არ" target="_blank">არ</a> შეამოკლოს <a
+                    href="https://en.wiktionary.org/wiki/ქართული" target="_blank">ქართული,</a> <a
+                    href="https://en.wiktionary.org/wiki/არა" target="_blank">არა</a> ქმნას სიტყვა-მცირობა, <br />
+                <br />
+                ხელდმარჯვედ სცემდეს <a href="https://en.wiktionary.org/wiki/ჩოგანი" target="_blank">ჩოგანსა,</a> იხმაროს
+                <a href="https://en.wiktionary.org/wiki/დიდი" target="_blank">დიდი</a> <a
+                    href="https://en.wiktionary.org/wiki/გმირობა" target="_blank">გმირობა.</a> <br />
+                <br />
+                მოშაირე <a href="https://en.wiktionary.org/wiki/არა" target="_blank">არა</a> ჰქვიან, <a
+                    href="https://en.wiktionary.org/wiki/თუ" target="_blank">თუ</a> <a
+                    href="https://en.wiktionary.org/wiki/სადმე" target="_blank">სადმე</a> თქვას <a
+                    href="https://en.wiktionary.org/wiki/ერთი" target="_blank">ერთი,</a> <a
+                    href="https://en.wiktionary.org/wiki/ორი" target="_blank">ორი;</a> <br />
+                <a href="https://en.wiktionary.org/wiki/თავი" target="_blank">თავი</a> <a
+                    href="https://en.wiktionary.org/wiki/ყოლა" target="_blank">ყოლა</a> <a
+                    href="https://en.wiktionary.org/wiki/ნუ" target="_blank">ნუ</a> <a
+                    href="https://en.wiktionary.org/wiki/ჰგონია" target="_blank">ჰგონია</a> მელექსეთა <a
+                    href="https://en.wiktionary.org/wiki/კარგი" target="_blank">კარგთა</a> <a
+                    href="https://en.wiktionary.org/wiki/სწორი" target="_blank">სწორი;</a> <br />
+                განაღა თქვას <a href="https://en.wiktionary.org/wiki/ერთი" target="_blank">ერთი,</a> <a
+                    href="https://en.wiktionary.org/wiki/ორი" target="_blank">ორი,</a> უმსგავსო შორი-შორი, <br />
+                <a href="https://en.wiktionary.org/wiki/მაგრა" target="_blank">მაგრა</a> <a
+                    href="https://en.wiktionary.org/wiki/იტყვის" target="_blank">იტყვის:</a> მჩემი სჯობსონ, უცილობლობს
+                ვითა <a href="https://en.wiktionary.org/wiki/ჯორი" target="_blank">ჯორი.</a> <br />
+                <br />
+                <a href="https://en.wiktionary.org/wiki/მეორე" target="_blank">მეორე</a> <a
+                    href="https://en.wiktionary.org/wiki/ლექსი" target="_blank">ლექსი</a> ცოტაი, <a
+                    href="https://en.wiktionary.org/wiki/ნაწილი" target="_blank">ნაწილი</a> მოშაირეთა, <br />
+                <a href="https://en.wiktionary.org/wiki/არ" target="_blank">არ</a> ძალდუც სრულ <a
+                    href="https://en.wiktionary.org/wiki/ქმნა" target="_blank">-ქმნა</a> სიტყვათა, გულისა გასაგმირეთა,
+                <br />
+                ვამსგავსე <a href="https://en.wiktionary.org/wiki/მშვილდი" target="_blank">მშვილდი</a> ბედითი <a
+                    href="https://en.wiktionary.org/wiki/ყმაწვილი" target="_blank">ყმაწვილთა</a> მონადირეთა: <br />
+                <a href="https://en.wiktionary.org/wiki/დიდი" target="_blank">დიდსა</a> <a
+                    href="https://en.wiktionary.org/wiki/ვერ" target="_blank">ვერ</a> მოჰკლვენ, <a
+                    href="https://en.wiktionary.org/wiki/ხელად" target="_blank">ხელად</a> <a
+                    href="https://en.wiktionary.org/wiki/აქვს" target="_blank">აქვს</a> ხოცა <a
+                    href="https://en.wiktionary.org/wiki/ნადირი" target="_blank">ნადირთა</a> მცირეთა. <br />
+                <br />
+                <a href="https://en.wiktionary.org/wiki/მესამე" target="_blank">მესამე</a> <a
+                    href="https://en.wiktionary.org/wiki/ლექსი" target="_blank">ლექსი</a> <a
+                    href="https://en.wiktionary.org/wiki/კარგი" target="_blank">კარგი</a> <a
+                    href="https://en.wiktionary.org/wiki/არს" target="_blank">არს</a> სანადიმოდ, სამღერელად, <br />
+                სააშიკოდ, სალაღობოდ, <a href="https://en.wiktionary.org/wiki/ამხანაგი" target="_blank">ამხანაგთა</a>
+                სათრეველად; <br />
+                <a href="https://en.wiktionary.org/wiki/ჩვენ" target="_blank">ჩვენ</a> მათიცა გვეამების, რაცა ოდენ თქვან
+                <a href="https://en.wiktionary.org/wiki/ნათელი" target="_blank">ნათელად.</a> <br />
+                მოშაირე <a href="https://en.wiktionary.org/wiki/არა" target="_blank">არა</a> ჰქვიან, ვერას <a
+                    href="https://en.wiktionary.org/wiki/იტყვის" target="_blank">იტყვის</a> ვინცა <a
+                    href="https://en.wiktionary.org/wiki/გრძელი" target="_blank">გრძელად.</a> <br />
+                <br />
+                ხამს, მელექსე ნაჭირვებსა <a href="https://en.wiktionary.org/wiki/მისი" target="_blank">მისსა</a> <a
+                    href="https://en.wiktionary.org/wiki/ცუდად" target="_blank">ცუდად</a> <a
+                    href="https://en.wiktionary.org/wiki/არ" target="_blank">არ</a> აბრკმობდეს, <br />
+                <a href="https://en.wiktionary.org/wiki/ერთი" target="_blank">ერთი</a> უჩნდეს სამიჯნურო, <a
+                    href="https://en.wiktionary.org/wiki/ერთი" target="_blank">ერთსა</a> ვისმე აშიკობდეს, <br />
+                ყოვლსა მისთვის ხელოვნობდეს, <a href="https://en.wiktionary.org/wiki/მას" target="_blank">მას</a>
+                აქებდეს, <a href="https://en.wiktionary.org/wiki/მას" target="_blank">მას</a> ამკობდეს, - <br />
+                მისგან <a href="https://en.wiktionary.org/wiki/კიდე" target="_blank">კიდე</a> ნურა <a
+                    href="https://en.wiktionary.org/wiki/უნდა" target="_blank">უნდა,</a> - მისთვის <a
+                    href="https://en.wiktionary.org/wiki/ენა" target="_blank">ენა</a> - მუსიკობდეს. <br />
+                <br />
+                <a href="https://en.wiktionary.org/wiki/ჩემი" target="_blank">ჩემი</a> აწ ცანით ყოველმან, <a
+                    href="https://en.wiktionary.org/wiki/მას" target="_blank">მას</a> ვაქებ, ვინცა მიქია; <br />
+                <a href="https://en.wiktionary.org/wiki/ესე" target="_blank">ესე</a> მიჩს <a
+                    href="https://en.wiktionary.org/wiki/დიდი" target="_blank">დიდად</a> <a
+                    href="https://en.wiktionary.org/wiki/სახელად" target="_blank">სახელად,</a> <a
+                    href="https://en.wiktionary.org/wiki/არ" target="_blank">არ</a> <a
+                    href="https://en.wiktionary.org/wiki/თავი" target="_blank">თავი</a> გამიქიქია! <br />
+                იგია <a href="https://en.wiktionary.org/wiki/ჩემი" target="_blank">ჩემი</a> <a
+                    href="https://en.wiktionary.org/wiki/სიცოცხლე" target="_blank">სიცოცხლე,</a> უწყალო ვითა <a
+                    href="https://en.wiktionary.org/wiki/ჯიქია" target="_blank">ჯიქია;</a> <br />
+                <a href="https://en.wiktionary.org/wiki/მისი" target="_blank">მისი</a> <a
+                    href="https://en.wiktionary.org/wiki/სახელი" target="_blank">სახელი</a> შეფარვით ქვემორე მითქვამს,
+                მიქია. <br />
+                <br />
+                <a href="https://en.wiktionary.org/wiki/ვთქვა" target="_blank">ვთქვა</a> მიჯნურობა <a
+                    href="https://en.wiktionary.org/wiki/პირველი" target="_blank">პირველი</a> <a
+                    href="https://en.wiktionary.org/wiki/ტომი" target="_blank">ტომი</a> <a
+                    href="https://en.wiktionary.org/wiki/გვარი" target="_blank">გვართა</a> ზენათა, <br />
+                <a href="https://en.wiktionary.org/wiki/ძნელად" target="_blank">ძნელად</a> სათქმელი, <a
+                    href="https://en.wiktionary.org/wiki/საჭირო" target="_blank">საჭირო</a> გამოსაგები ენათა; <br />
+                იგია <a href="https://en.wiktionary.org/wiki/საქმე" target="_blank">საქმე</a> საზეო, მომცემი
+                აღმაფრენათა; <br />
+                ვინცა ეცდების, თმობამცა ჰქონმრავალთა წყენათა. <br />
+                <br />
+                <a href="https://en.wiktionary.org/wiki/მას" target="_blank">მას</a> <a
+                    href="https://en.wiktionary.org/wiki/ერთი" target="_blank">ერთსა</a> მიჯნურობასა <a
+                    href="https://en.wiktionary.org/wiki/ჭკვიანი" target="_blank">ჭკვიანნი</a> <a
+                    href="https://en.wiktionary.org/wiki/ვერ" target="_blank">ვერ</a> მიხვდებიან, <br />
+                <a href="https://en.wiktionary.org/wiki/ენა" target="_blank">ენა</a> დაშვრების, მსმენლისა ყურნიცა
+                დავალდებიან; <br />
+                <br />
+                ვთქვნე ხელობანი ქვენანი, <a href="https://en.wiktionary.org/wiki/რომელი" target="_blank">რომელნი</a> <a
+                    href="https://en.wiktionary.org/wiki/ხორცი" target="_blank">ხორცთა</a> ხვდებიან; <br />
+                მართ მასვე ჰბაძავენ, <a href="https://en.wiktionary.org/wiki/თუ" target="_blank">თუ</a> ოდეს <a
+                    href="https://en.wiktionary.org/wiki/არ" target="_blank">არ</a> სიძვენ, შორით ბნდებიან. <br />
+                <br />
+                <a href="https://en.wiktionary.org/wiki/მიჯნური" target="_blank">მიჯნური</a> <a
+                    href="https://en.wiktionary.org/wiki/შმაგი" target="_blank">შმაგსა</a> გვიქვიან არაბულითა ენითა.
+                <br />
+                მით რომე შმაგობს მისისა ვერ-მიხვდომისა წყენითა; <br />
+                <a href="https://en.wiktionary.org/wiki/ზოგი" target="_blank">ზოგთა</a> <a
+                    href="https://en.wiktionary.org/wiki/აქვს" target="_blank">აქვს</a> საღმრთო <a
+                    href="https://en.wiktionary.org/wiki/სიახლე" target="_blank">სიახლე,</a> დაშვრების აღმაფრენითა,
+                <br />
+                <a href="https://en.wiktionary.org/wiki/კვლა" target="_blank">კვლა</a> <a
+                    href="https://en.wiktionary.org/wiki/ზოგი" target="_blank">ზოგთა</a> ქვე უც <a
+                    href="https://en.wiktionary.org/wiki/ბუნება" target="_blank">ბუნება</a> <a
+                    href="https://en.wiktionary.org/wiki/კეკლუცი" target="_blank">კეკლუცთა</a> ზედან ფრფენითა. <br />
+                <br />
+                <a href="https://en.wiktionary.org/wiki/მიჯნური" target="_blank">მიჯნურსა</a> <a
+                    href="https://en.wiktionary.org/wiki/თვალი" target="_blank">თვალად</a> სიტურფე მართებს, მართ ვითა
+                მზეობა, <br />
+                <a href="https://en.wiktionary.org/wiki/სიბრძნე" target="_blank">სიბრძნე,</a> <a
+                    href="https://en.wiktionary.org/wiki/სიუხვე" target="_blank">სიუხვე,</a> <a
+                    href="https://en.wiktionary.org/wiki/სიმდიდრე" target="_blank">სიმდიდრე,</a> სიყმე <a
+                    href="https://en.wiktionary.org/wiki/მოცალეობა" target="_blank">მოცალეობა.</a> <br />
+                <a href="https://en.wiktionary.org/wiki/ენა" target="_blank">ენა,</a> <a
+                    href="https://en.wiktionary.org/wiki/გონება" target="_blank">გონება,</a> <a
+                    href="https://en.wiktionary.org/wiki/დათმობა" target="_blank">დათმობა,</a> მძლეთა მებრძოლთა მძლეობა.
+                <br />
+                ვისცა <a href="https://en.wiktionary.org/wiki/ეს" target="_blank">ეს</a> <a
+                    href="https://en.wiktionary.org/wiki/სრულად" target="_blank">სრულად</a> <a
+                    href="https://en.wiktionary.org/wiki/არა" target="_blank">არა</a> სჭირს, <a
+                    href="https://en.wiktionary.org/wiki/აკლია" target="_blank">აკლია</a> მიჯნურთ <a
+                    href="https://ka.wiktionary.org/wiki/ზნეობა" target="_blank">ზნეობა.</a> <br />
+                <br />
+                მიჯნურობა <a href="https://en.wiktionary.org/wiki/არის" target="_blank">არის</a> <a
+                    href="https://en.wiktionary.org/wiki/ტურფა" target="_blank">ტურფა,</a> საცოდნელად <a
+                    href="https://en.wiktionary.org/wiki/ძნელი" target="_blank">ძნელი</a> <a
+                    href="https://en.wiktionary.org/wiki/გვარი" target="_blank">გვარი;</a> <br />
+                მიჯნურობა <a href="https://en.wiktionary.org/wiki/სხვა" target="_blank">სხვა</a> რამეა, <a
+                    href="https://en.wiktionary.org/wiki/არ" target="_blank">არ</a> სიძვისა დასადარი: <br />
+                <a href="https://en.wiktionary.org/wiki/იგი" target="_blank">იგი</a> სხვაა, სიძვა სხვაა, <a
+                    href="https://en.wiktionary.org/wiki/შუა" target="_blank">შუა</a> უზის <a
+                    href="https://en.wiktionary.org/wiki/დიდი" target="_blank">დიდი</a> <a
+                    href="https://en.wiktionary.org/wiki/ზღვარი" target="_blank">ზღვარი,</a> <br />
+                ნუვინ გარევთ ერთმანერთსა! გესმის <a href="https://en.wiktionary.org/wiki/ჩემი" target="_blank">ჩემი</a>
+                ნაუბარი? <br />
+                <br />
+                ხამს <a href="https://en.wiktionary.org/wiki/მიჯნური" target="_blank">მიჯნური</a> ხანიერი, <a
+                    href="https://en.wiktionary.org/wiki/არ" target="_blank">არ</a> <a
+                    href="https://en.wiktionary.org/wiki/მეძავი" target="_blank">მეძავი,</a> <a
+                    href="https://en.wiktionary.org/wiki/ბილწი" target="_blank">ბილწი,</a> <a
+                    href="https://en.wiktionary.org/wiki/მრუში" target="_blank">მრუში,</a> <br />
+                <a href="https://en.wiktionary.org/wiki/რა" target="_blank">რა</a> მოშორდეს მოყვარესა, გაამრავლოს
+                სულთქმა, უში, <br />
+                <a href="https://en.wiktionary.org/wiki/გული" target="_blank">გული</a> <a
+                    href="https://en.wiktionary.org/wiki/ერთი" target="_blank">ერთსა</a> დააჯეროს, <a
+                    href="https://en.wiktionary.org/wiki/კუშტი" target="_blank">კუშტი</a> მიხვდეს, თუნქუში; <br />
+                მძულს <a href="https://en.wiktionary.org/wiki/უგულო" target="_blank">უგულო</a> <a
+                    href="https://en.wiktionary.org/wiki/სიყვარული" target="_blank">სიყვარული,</a> ხვევნა, <a
+                    href="https://en.wiktionary.org/wiki/კოცნა" target="_blank">კოცნა,</a> მტლაშიდმტლუში. <br />
+                <br />
+                <a href="https://en.wiktionary.org/wiki/ამა" target="_blank">ამა</a> საქმესა <a
+                    href="https://en.wiktionary.org/wiki/მიჯნური" target="_blank">მიჯნური</a> <a
+                    href="https://en.wiktionary.org/wiki/ნუ" target="_blank">ნუ</a> უხმობს მიჯნურობასა: <br />
+                <a href="https://en.wiktionary.org/wiki/დღეს" target="_blank">დღეს</a> <a
+                    href="https://en.wiktionary.org/wiki/ერთი" target="_blank">ერთი</a> უნდეს, ხვალე <a
+                    href="https://en.wiktionary.org/wiki/სხვა" target="_blank">სხვა,</a> სთმობდეს გაყრისა თმობასა;
+                <br />
+                <a href="https://en.wiktionary.org/wiki/ესე" target="_blank">ესე</a> მღერასა ბედითსა ჰგავს, <a
+                    href="https://en.wiktionary.org/wiki/ვაჟი" target="_blank">ვაჟთა</a> ყმაწვილობასა. <br />
+                <a href="https://en.wiktionary.org/wiki/კარგი" target="_blank">კარგი</a> <a
+                    href="https://en.wiktionary.org/wiki/მიჯნური" target="_blank">მიჯნური</a> იგია, <a
+                    href="https://en.wiktionary.org/wiki/ვინ" target="_blank">ვინ</a> იქმს სოფლისა თმობასა. <br />
+                <br />
+                <a href="https://en.wiktionary.org/wiki/არს" target="_blank">არს</a> <a
+                    href="https://en.wiktionary.org/wiki/პირველი" target="_blank">პირველი</a> მიჯნურობა არ-დაჩენა <a
+                    href="https://en.wiktionary.org/wiki/ჭირი" target="_blank">ჭირთა,</a> <a
+                    href="https://en.wiktionary.org/wiki/მალვა" target="_blank">მალვა,</a> <br />
+                თავის-წინა იგონებდეს, ნიადაგმცა ჰქონხალვა, <br />
+                შორით ბნედა, შორით კვდომა, შორით <a href="https://en.wiktionary.org/wiki/დაგვა"
+                    target="_blank">დაგვა,</a> შორით <a href="https://en.wiktionary.org/wiki/ალვა"
+                    target="_blank">ალვა,</a> <br />
+                დათმოს წყრომა მეფეთაგან, <a href="https://en.wiktionary.org/wiki/მისი" target="_blank">მისი</a> ჰქონდეს
+                <a href="https://en.wiktionary.org/wiki/შიში" target="_blank">შიში,</a> <a
+                    href="https://en.wiktionary.org/wiki/კრძალვა" target="_blank">კრძალვა.</a> <br />
+                <br />
+                ხამს, <a href="https://en.wiktionary.org/wiki/თავისი" target="_blank">თავისსა</a> <a
+                    href="https://en.wiktionary.org/wiki/ხვაშიადი" target="_blank">ხვაშიადსა</a> არვისთანა ამჟღავნებდეს,
+                <br />
+                <br />
+                <a href="https://en.wiktionary.org/wiki/არ" target="_blank">არ</a> ბედითად მჰაისნ ზმიდეს, მოყვარესა
+                აყივნებდეს, <br />
+                <a href="https://en.wiktionary.org/wiki/არსით" target="_blank">არსით</a> აჩნდეს მიჯნურობა,
+                არასაიფერებდეს, <br />
+                მისთვის <a href="https://en.wiktionary.org/wiki/ჭირი" target="_blank">ჭირი</a> <a
+                    href="https://en.wiktionary.org/wiki/ლხინი" target="_blank">ლხინად</a> უჩნდეს, მისთვის <a
+                    href="https://en.wiktionary.org/wiki/ცეცხლი" target="_blank">ცეცხლსა</a> მოიდებდეს. <br />
+                <br />
+                <a href="https://en.wiktionary.org/wiki/მას" target="_blank">მას</a> უშმაგო <a
+                    href="https://en.wiktionary.org/wiki/ვით" target="_blank">ვით</a> მიენდოს, <a
+                    href="https://en.wiktionary.org/wiki/ვინ" target="_blank">ვინ</a> <a
+                    href="https://en.wiktionary.org/wiki/მოყვარე" target="_blank">მოყვარე</a> გაამჩივნოს? <br />
+                <a href="https://en.wiktionary.org/wiki/ამის" target="_blank">ამის</a> <a
+                    href="https://en.wiktionary.org/wiki/მეტი" target="_blank">მეტი</a> რამცა ირგო: <a
+                    href="https://en.wiktionary.org/wiki/მას" target="_blank">მას</a> ავნოს თვითცა ივნოს. <br />
+                რათამეღა ასახელოს, <a href="https://en.wiktionary.org/wiki/რა" target="_blank">რა</a> სიტყვითა
+                მოაყივნოს? <br />
+                <a href="https://en.wiktionary.org/wiki/რა" target="_blank">რა</a> ჰგავა, <a
+                    href="https://en.wiktionary.org/wiki/თუ" target="_blank">თუ</a> მოყვარესა კაცმან <a
+                    href="https://en.wiktionary.org/wiki/გული" target="_blank">გული</a> <a
+                    href="https://en.wiktionary.org/wiki/არ" target="_blank">არ</a> ატკივნოს! <br />
+                <br />
+                მიკვირს, <a href="https://en.wiktionary.org/wiki/კაცი" target="_blank">კაცი</a> <a
+                    href="https://en.wiktionary.org/wiki/რად" target="_blank">რად</a> იფერებს საყვარლისა <a
+                    href="https://en.wiktionary.org/wiki/სიყვარული" target="_blank">სიყვარულსა:</a> <br />
+                ვინცა <a href="https://en.wiktionary.org/wiki/უყვარს" target="_blank">უყვარს,</a> <a
+                    href="https://en.wiktionary.org/wiki/რად" target="_blank">რად</a> აყივნებს მისთვის <a
+                    href="https://en.wiktionary.org/wiki/მკვდარი" target="_blank">მკვდარი,</a> მისთვის <a
+                    href="https://en.wiktionary.org/wiki/წყლული" target="_blank">წყლულსა?!</a> <br />
+                <a href="https://en.wiktionary.org/wiki/თუ" target="_blank">თუ</a> <a
+                    href="https://en.wiktionary.org/wiki/არ" target="_blank">არ</a> <a
+                    href="https://en.wiktionary.org/wiki/უყვარს" target="_blank">უყვარს,</a> <a
+                    href="https://en.wiktionary.org/wiki/რად" target="_blank">რად</a> <a
+                    href="https://en.wiktionary.org/wiki/არა" target="_blank">არა</a> <a
+                    href="https://en.wiktionary.org/wiki/სძულს" target="_blank">სძულს?</a> <a
+                    href="https://en.wiktionary.org/wiki/რად" target="_blank">რად</a> აყივნებს, რაცა სძულსა?! <br />
+                <a href="https://en.wiktionary.org/wiki/ავი" target="_blank">ავსა</a> <a
+                    href="https://en.wiktionary.org/wiki/კაცი" target="_blank">კაცსა</a> <a
+                    href="https://en.wiktionary.org/wiki/ავი" target="_blank">ავი</a> <a
+                    href="https://en.wiktionary.org/wiki/სიტყვა" target="_blank">სიტყვა</a> ურჩევნია <a
+                    href="https://en.wiktionary.org/wiki/სული" target="_blank">სულსა,</a> <a
+                    href="https://en.wiktionary.org/wiki/გული" target="_blank">გულსა.</a> <br />
+                <br />
+                <a href="https://en.wiktionary.org/wiki/თუ" target="_blank">თუ</a> <a
+                    href="https://en.wiktionary.org/wiki/მოყვარე" target="_blank">მოყვარე</a> მოყვრისათვის ტირს, <a
+                    href="https://en.wiktionary.org/wiki/ტირილი" target="_blank">ტირილსა</a> ემართლების; <br />
+                <a href="https://en.wiktionary.org/wiki/სიარული" target="_blank">სიარული,</a> <a
+                    href="https://en.wiktionary.org/wiki/მარტოობა" target="_blank">მარტოობა</a> შვენის, გაჭრად
+                დაეთვლების; <br />
+                იგონებდეს, მისგან <a href="https://en.wiktionary.org/wiki/კიდე" target="_blank">კიდე</a> ნურაოდეს
+                მოეცლების, <br />
+                <a href="https://en.wiktionary.org/wiki/არ" target="_blank">არ</a> დააჩნდეს მიჯნურობა, <a
+                    href="https://en.wiktionary.org/wiki/სჯობს" target="_blank">სჯობს,</a> <a
+                    href="https://en.wiktionary.org/wiki/თუ" target="_blank">თუ</a> <a
+                    href="https://en.wiktionary.org/wiki/კაცი" target="_blank">კაცსა</a> ეახლების. <br />
+                <br />
             </p>
+        </div>
+        <div class="pagination">
+            <a href="page2.html">Next Chapter →</a>
         </div>
     </div>
 </body>
+
 </html>

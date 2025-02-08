@@ -23,19 +23,19 @@ body {
 }
 
 .poem {
-    width: 90%; /* Adjusted for wider box */
-    max-width: 800px; /* Increased max width */
-    max-height: 80vh; /* Max height for the box */
-    padding: 20px;
+    width: 90%; /* Full width of the container */
+    max-width: 1600px; /* Increased max width */
+    max-height: 90vh; /* Height limit for the box */
+    padding: 30px; /* Padding for aesthetics */
     text-align: center;
     background-color: #ffffff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Larger shadow */
+    border-radius: 10px; /* Soft corners */
     overflow-y: auto; /* Makes the box scrollable */
 }
 
 .poem p {
-    font-size: 1.5em;
-    line-height: 1.6;
+    font-size: 1.5em; /* Adjusted font size */
+    line-height: 1.5; /* Line height for readability */
     color: #333;
 }
